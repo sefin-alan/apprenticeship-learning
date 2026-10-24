@@ -9,8 +9,8 @@ My notes from QA's Level 3 Azure Cloud Support Specialist Apprenticeship Course.
 ├── 03-cloud-networking/
 ├── 04-operating-systems/
 ├── 05-azure/
-├── 06-projects/
-├── 07-README.md
+├── projects/
+├── README.md
 
 ## Modules
 
