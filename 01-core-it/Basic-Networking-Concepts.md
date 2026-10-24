@@ -95,4 +95,41 @@ Networks are made up of components that work together to facilitate communicatio
 
 ### Networking Hardware
 
+**Networking Hardware** is the equipment that enables networked devices to communicate with each other. This includes:
+
+- **Network Interface Cards (NICs)** enable devices to connect to the network either wired or wirelessly and are typically used by **endpoints**
+- **Modems** convert digital data from a computer into analogue signals for transmission over telephone lines
+- **Interfaces/Ports** enable **intermediary devices** to connect to other devices on a network. These interfaces can be either wired or wireless and use various protocols for communication.
+
+### Protocols and Services
+
+**Protocols and services** are the rules and conventions that govern the network. Examples of them include:
+
+- Transmission Control Protocol/Internet Protocol (TCP/IP): The core set of rules that allows devices to exchange daya over networks, including the internet.
+- Hypertext Transfer Protocol/Hypertext Transfer Protocol Secure (HTTP/HTTPS): The protocol web browsers and servers use to request and deliver web pages. HTTPS is the secure version and adds encryption via **TLS** so that data exchanged like passwords or payment details, can't easily be read or tampered with by anyone.
+
+Easy way to remember: TCP/IP would be responsible for delivering the password itself to a particular website's serber by breaking it down into packets first. HTTP/HTTPS define what the browser and website say to each other i.e. the browser's login prompt and the server's successul or invalid password response - https does this with encryption.
+
+### Hubs, Switches, and Routers
+
+**Hubs** take data in one port and blast it out to every other port, whether or not they need it as it does not know who is connected where. This can cause congestion and weak security.
+
+**Switches** learn which device (by MAC address) is on which port and send data only to the intended recipient. For example, if your laptop sends something to your printer, since the address of the printer is on the home network, the traffic is handled locally
+
+**Routers** connect different networks together and direct traffic between them using **IP addresses**, deciding if the traffoc goes out to the **ISP**. 
+
+Essentially, the **switch** will handle local delivery while the router handles anything headed to another network.
+
+### Network Messages
+
+There are 3 main categories for the types of messages that are communicated over a network, which are Unicast, Multicast, and Broadcast. These types each correspond to the intended recipient/s, in terms of the number of them, of a particular message.
+
+## Network Security
+
+Two key methods of securing data and protecting against attacks are **encryption** and **firewalls**
+
+**Encryption** - A message is encoded in a way in which only someone with a key can decrypt it. This means that even if someone intercepts the data, it's stil unreadable without the key. The purpose of this is confidentiality.
+
+**Firewalls** - Use a set of criteria as filters and decides what type of traffic to let in and out of devices, meaning that they sit between a trusted network (e.g. your home network) and an untrusted one (e.g. the internet). These criteria are usually rules based on things like **IP addresses**, **ports**, or **protocols**. The purpose of this is to provide protection from unauthorised access.
+
 
