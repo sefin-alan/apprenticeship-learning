@@ -4,13 +4,15 @@ My notes from QA's Level 3 Azure Cloud Support Specialist Apprenticeship Course.
 
 ## Repository Structure
 
+```
+apprentice-learning/
 ├── 01-core-it/
 ├── 02-service-management/
 ├── 03-cloud-networking/
 ├── 04-operating-systems/
-├── 05-azure/
-├── projects/
-├── README.md
+├── 05-azure/     
+├── projects/             
+```
 
 ## Modules
 
