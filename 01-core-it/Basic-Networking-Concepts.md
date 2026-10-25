@@ -79,7 +79,7 @@ Networks are made up of components that work together to facilitate communicatio
 
 - Switches connect devices within the same network, enabling efficient data exchange
 - Routers connect different networks together, such as connecting a local network to the internet
-- Wireless Access Points (WAP) and controllers (WLC) allow wireless devices to communicate with each other and facilitate communication with wired networks
+- **Wireless Access Points (WAP)** and **controllers (WLC)** allow wireless devices to communicate with each other and facilitate communication with wired networks
 
 ### Media
 
