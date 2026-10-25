@@ -44,26 +44,21 @@ This type of network is not without its own disadvantages however, the centralis
 - There are 4 main network topologies which are: Bus, Star, Ring, Mesh
 
 **Bus Networks** were typically used in early networking, with a single cable connecting each device to the network. A major risk of this topology is that a single computer failure or cable damage can bring down the entire network.
-
 ![alt text](<images/Bus Networks.png>)
 
 
 
 **Star Networks** are common in modern networking, where each computer is connected to a central device, such as a hub, switch, router. This offers more resilience relative to Bus Networks, as the failure of one device does not disrupt the entire network.
-
-
 ![alt text](<images/Star Networks.png>)
 
 
 
 **Ring Networks** consist of each computer being connected to others in a closed loop. This type of network can be resilient if data can travel in both directions as it means that if a single failure occurs, data can still travel in the other direction. 
-
 ![alt text](<images/Ring Networks.png>)
 
 
 
 **Mesh Networks** are used for critical operations where minimising downtime is a priority. Each computer is connected to every other computer without a central connecting device.
-
 ![alt text](images/Mesh.png)
 
 ## Network Components
